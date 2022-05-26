@@ -58,7 +58,6 @@ class Main {
     System.arraycopy(sortedArray_left, 0, sortedArray, 0, sortedArray_left.length);
     System.arraycopy(sortedArray_right, 0, sortedArray, sortedArray_left.length, sortedArray_right.length);
 
-
     return sortedArray;
     // ここまで記述
 
